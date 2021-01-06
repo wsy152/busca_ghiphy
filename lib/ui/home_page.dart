@@ -35,7 +35,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Image.network(url),
-        centerTitle: true,
+        centerTitle: false,
       ),
       backgroundColor: Colors.blue,
       body: Column(
